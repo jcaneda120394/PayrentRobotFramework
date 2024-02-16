@@ -1,6 +1,6 @@
-datasources:70810ad34b9aa7e13fab9b991bcb758d42de802e
-commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+datasources:9790ca615d367e3da1b8abcbba807a4213b43a8a
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
 suitesfrom:no-suites-from-option
-file:faef0930196d5619f006811de4c77df4560c8e8a
---suite TestCase.Payrent Login Valid-Test
---suite TestCase.PropertyTest
+file:efd7d72a57ffaa6a2b7fdb4e58dca0d381f690c4
+--suite Suites.Payrent Login Valid-Test
+--suite Suites.PropertyTest

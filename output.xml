@@ -1,108 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-02-16T13:22:44.150844" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-02-16T14:12:32.437389" rpa="false" schemaversion="5">
 <suite id="s1" name="TestCase" source="C:\Users\Jerald\Documents\GitHub\PayrentRobotFramework\TestCase">
 <suite id="s1-s1" name="Payrent Login Valid-Test" source="C:\Users\Jerald\Documents\GitHub\PayrentRobotFramework\TestCase\Payrent_Login_Valid-Test.robot">
 <kw name="Open My Browser" owner="Login_Keywords" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-02-16T13:22:45.076736" level="INFO">Opening browser 'headlessfirefox' to base url 'https://app.dev.payrent.com/'.</msg>
+<msg time="2024-02-16T14:12:33.739057" level="INFO">Opening browser 'headlessfirefox' to base url 'https://app.dev.payrent.com/'.</msg>
 <arg>${SiteURL}</arg>
 <arg>${BrowserFireFox}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-02-16T13:22:45.076736" elapsed="12.819591"/>
+<status status="PASS" start="2024-02-16T14:12:33.739057" elapsed="14.354401"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2024-02-16T13:22:57.896327" elapsed="0.003997"/>
+<status status="PASS" start="2024-02-16T14:12:48.094786" elapsed="0.004215"/>
 </kw>
-<status status="PASS" start="2024-02-16T13:22:45.075736" elapsed="12.824588"/>
+<status status="PASS" start="2024-02-16T14:12:33.738057" elapsed="14.360944"/>
 </kw>
 <test id="s1-s1-t1" name="Payrent Verify Valid Login Page" line="18">
 <kw name="Validation Page">
 <kw name="Enter UserName" owner="Login_Keywords">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-02-16T13:22:57.902324" level="INFO">Typing text 'rentpay.landlord+hoover@gmail.com' into text field 'id=email'.</msg>
+<msg time="2024-02-16T14:12:48.102145" level="INFO">Typing text 'rentpay.landlord+hoover@gmail.com' into text field 'id=email'.</msg>
 <arg>${txt_username}</arg>
 <arg>${username}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-02-16T13:22:57.902324" elapsed="0.106029"/>
+<status status="PASS" start="2024-02-16T14:12:48.102145" elapsed="0.113973"/>
 </kw>
 <arg>${username}</arg>
-<status status="PASS" start="2024-02-16T13:22:57.901324" elapsed="0.107029"/>
+<status status="PASS" start="2024-02-16T14:12:48.101144" elapsed="0.114974"/>
 </kw>
 <kw name="Enter UserPassword" owner="Login_Keywords">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-02-16T13:22:58.009362" level="INFO">Typing text 'Power@120394' into text field 'id=password'.</msg>
+<msg time="2024-02-16T14:12:48.217127" level="INFO">Typing text 'Power@120394' into text field 'id=password'.</msg>
 <arg>${txt_password}</arg>
 <arg>${password}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-02-16T13:22:58.009362" elapsed="0.030998"/>
+<status status="PASS" start="2024-02-16T14:12:48.217127" elapsed="0.030269"/>
 </kw>
 <arg>${password}</arg>
-<status status="PASS" start="2024-02-16T13:22:58.008353" elapsed="0.032007"/>
+<status status="PASS" start="2024-02-16T14:12:48.216118" elapsed="0.031278"/>
 </kw>
 <kw name="Click LoginButton" owner="Login_Keywords">
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-02-16T13:22:58.041360" level="INFO">Clicking button 'xpath://button[@data-testid='signInButtonTest']'.</msg>
+<msg time="2024-02-16T14:12:48.248398" level="INFO">Clicking button 'xpath://button[@data-testid='signInButtonTest']'.</msg>
 <arg>${btn_login}</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-02-16T13:22:58.041360" elapsed="0.423546"/>
+<status status="PASS" start="2024-02-16T14:12:48.248398" elapsed="0.411532"/>
 </kw>
-<status status="PASS" start="2024-02-16T13:22:58.041360" elapsed="0.423546"/>
+<status status="PASS" start="2024-02-16T14:12:48.247396" elapsed="0.412534"/>
 </kw>
 <kw name="Capture Page Screenshot" owner="SeleniumLibrary">
-<msg time="2024-02-16T13:22:58.512935" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../Screenshots/ValidLogin.png"&gt;&lt;img src="../Screenshots/ValidLogin.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-02-16T14:12:48.689114" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../Screenshots/ValidLogin.png"&gt;&lt;img src="../Screenshots/ValidLogin.png" width="800px"&gt;&lt;/a&gt;</msg>
 <arg>../Screenshots/ValidLogin.png</arg>
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<status status="PASS" start="2024-02-16T13:22:58.464906" elapsed="0.048540"/>
+<status status="PASS" start="2024-02-16T14:12:48.659930" elapsed="0.029184"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-02-16T13:23:28.513933" level="INFO">Slept 30 seconds.</msg>
+<msg time="2024-02-16T14:13:18.690169" level="INFO">Slept 30 seconds.</msg>
 <arg>30 seconds</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-02-16T13:22:58.513446" elapsed="30.000487"/>
+<status status="PASS" start="2024-02-16T14:12:48.689114" elapsed="30.001055"/>
 </kw>
 <kw name="Verify Succesful Login" owner="Login_Keywords">
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2024-02-16T13:23:28.533102" level="INFO">Element 'xpath://span[text()='Account Status:']' is displayed.</msg>
+<msg time="2024-02-16T14:13:18.711845" level="INFO">Element 'xpath://span[text()='Account Status:']' is displayed.</msg>
 <arg>xpath://span[text()='Account Status:']</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2024-02-16T13:23:28.515045" elapsed="0.018057"/>
+<status status="PASS" start="2024-02-16T14:13:18.691196" elapsed="0.020649"/>
 </kw>
-<status status="PASS" start="2024-02-16T13:23:28.513933" elapsed="0.019169"/>
+<status status="PASS" start="2024-02-16T14:13:18.691196" elapsed="0.020649"/>
 </kw>
 <arg>username=rentpay.landlord+hoover@gmail.com</arg>
 <arg>password=Power@120394</arg>
-<status status="PASS" start="2024-02-16T13:22:57.901324" elapsed="30.631778"/>
+<status status="PASS" start="2024-02-16T14:12:48.101144" elapsed="30.610701"/>
 </kw>
-<status status="PASS" start="2024-02-16T13:22:57.900324" elapsed="30.633779"/>
+<status status="PASS" start="2024-02-16T14:12:48.099001" elapsed="30.613843"/>
 </test>
-<status status="PASS" start="2024-02-16T13:22:44.170511" elapsed="44.364591"/>
+<status status="PASS" start="2024-02-16T14:12:32.459823" elapsed="46.254328"/>
 </suite>
 <suite id="s1-s2" name="PropertyTest" source="C:\Users\Jerald\Documents\GitHub\PayrentRobotFramework\TestCase\PropertyTest.robot">
 <test id="s1-s2-t1" name="Property" line="6">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-02-16T13:23:28.550083" level="INFO">Clicking element 'xpath://span[@data-testid='propertiesTest']'.</msg>
+<msg time="2024-02-16T14:13:18.725043" level="INFO">Clicking element 'xpath://span[@data-testid='propertiesTest']'.</msg>
 <arg>xpath://span[@data-testid='propertiesTest']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-02-16T13:23:28.550083" elapsed="0.339161"/>
+<status status="PASS" start="2024-02-16T14:13:18.725043" elapsed="0.311241"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-02-16T13:23:58.890758" level="INFO">Slept 30 seconds.</msg>
+<msg time="2024-02-16T14:13:49.036506" level="INFO">Slept 30 seconds.</msg>
 <arg>30 seconds</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-02-16T13:23:28.890243" elapsed="30.000515"/>
+<status status="PASS" start="2024-02-16T14:13:19.036284" elapsed="30.000222"/>
 </kw>
 <kw name="Capture Page Screenshot" owner="SeleniumLibrary">
-<msg time="2024-02-16T13:23:58.931034" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../Screenshots/ValidLogin.png"&gt;&lt;img src="../Screenshots/ValidLogin.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-02-16T14:13:49.083567" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../Screenshots/ValidLogin.png"&gt;&lt;img src="../Screenshots/ValidLogin.png" width="800px"&gt;&lt;/a&gt;</msg>
 <arg>../Screenshots/ValidLogin.png</arg>
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<status status="PASS" start="2024-02-16T13:23:58.890758" elapsed="0.040276"/>
+<status status="PASS" start="2024-02-16T14:13:49.036506" elapsed="0.047061"/>
 </kw>
-<status status="PASS" start="2024-02-16T13:23:28.549075" elapsed="30.381959"/>
+<status status="PASS" start="2024-02-16T14:13:18.725043" elapsed="30.358524"/>
 </test>
-<status status="PASS" start="2024-02-16T13:23:28.537104" elapsed="30.394929"/>
+<status status="PASS" start="2024-02-16T14:13:18.715750" elapsed="30.369185"/>
 </suite>
-<status status="PASS" start="2024-02-16T13:22:44.152845" elapsed="74.780184"/>
+<status status="PASS" start="2024-02-16T14:12:32.438397" elapsed="76.647548"/>
 </suite>
 <statistics>
 <total>

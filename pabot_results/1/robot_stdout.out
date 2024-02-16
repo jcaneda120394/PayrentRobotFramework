@@ -1,7 +1,7 @@
 ==============================================================================
-TestCase                                                                      
+Suites                                                                        
 ==============================================================================
-TestCase.PropertyTest                                                         
+Suites.PropertyTest                                                           
 ==============================================================================
 Property                                                                
   Traceback (most recent call last):
@@ -9,16 +9,16 @@ Property
     File  C:\Users\Jerald\Documents\GitHub\PayrentRobotFramework\TestCase\PropertyTest.robot:6
     T:  Property    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  C:\Users\Jerald\Documents\GitHub\PayrentRobotFramework\TestCase\PropertyTest.robot:8
+    File  C:\Users\Jerald\Documents\GitHub\PayrentRobotFramework\TestCase\PropertyTest.robot:7
       Click Element    xpath://span[@data-testid='propertiesTest']
 ______________________________________________________________________________
 | FAIL |
 No browser is open.
 ------------------------------------------------------------------------------
-TestCase.PropertyTest                                                 | FAIL |
+Suites.PropertyTest                                                   | FAIL |
 1 test, 0 passed, 1 failed
 ==============================================================================
-TestCase                                                              | FAIL |
+Suites                                                                | FAIL |
 1 test, 0 passed, 1 failed
 ==============================================================================
 Output:  C:\Users\Jerald\Documents\GitHub\PayrentRobotFramework\pabot_results\1\output.xml

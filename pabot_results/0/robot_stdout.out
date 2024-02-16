@@ -1,14 +1,14 @@
 ==============================================================================
-TestCase                                                                      
+Suites                                                                        
 ==============================================================================
-TestCase.Payrent Login Valid-Test                                             
+Suites.Payrent Login Valid-Test                                               
 ==============================================================================
 Payrent Verify Valid Login Page                                       | PASS |
 ------------------------------------------------------------------------------
-TestCase.Payrent Login Valid-Test                                     | PASS |
+Suites.Payrent Login Valid-Test                                       | PASS |
 1 test, 1 passed, 0 failed
 ==============================================================================
-TestCase                                                              | PASS |
+Suites                                                                | PASS |
 1 test, 1 passed, 0 failed
 ==============================================================================
 Output:  C:\Users\Jerald\Documents\GitHub\PayrentRobotFramework\pabot_results\0\output.xml

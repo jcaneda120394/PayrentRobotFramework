@@ -1,2 +1,2 @@
-cd C:\Users\Jerald\Documents\GitHub\PayrentRobotFramework\TestCase
-robot --include=regression TestCase\*.robot
+cd  C:\Users\Jerald\Documents\GitHub\PayrentRobotFramework
+robot TestCase\*.robot
