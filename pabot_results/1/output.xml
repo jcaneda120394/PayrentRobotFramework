@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-02-16T12:28:36.086093" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCase" source="C:\Users\Jerald\Documents\GitHub\PayrentRobotFramework\TestCase">
+<suite id="s1-s1" name="PropertyTest" source="C:\Users\Jerald\Documents\GitHub\PayrentRobotFramework\TestCase\PropertyTest.robot">
+<test id="s1-s1-t1" name="Property" line="6">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-02-16T12:28:36.309546" level="INFO">Clicking element 'xpath://span[@data-testid='propertiesTest']'.</msg>
+<msg time="2024-02-16T12:28:36.309546" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2024-02-16T12:28:36.310550" level="FAIL">No browser is open.</msg>
+<arg>xpath://span[@data-testid='propertiesTest']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2024-02-16T12:28:36.309546" elapsed="0.005196">No browser is open.</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>30 seconds</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-02-16T12:28:36.315249" elapsed="0.000000"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<arg>../Screenshots/ValidLogin.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" start="2024-02-16T12:28:36.315249" elapsed="0.000000"/>
+</kw>
+<tag>Regression</tag>
+<status status="FAIL" start="2024-02-16T12:28:36.308545" elapsed="0.006704">No browser is open.</status>
+</test>
+<status status="FAIL" start="2024-02-16T12:28:36.109094" elapsed="0.207162"/>
+</suite>
+<status status="FAIL" start="2024-02-16T12:28:36.096608" elapsed="0.220648"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Regression</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TestCase">TestCase</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="PropertyTest">TestCase.PropertyTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

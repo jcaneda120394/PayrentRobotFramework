@@ -17,7 +17,7 @@ Suite Setup     Open My Browser    # robotcode: ignore
 #      Capture Page Screenshot     ../Screenshots/ValidLogin.png
 #      Close My Browser
 Payrent Verify Valid Login Page     ${username}     ${password}    # robotcode: ignore  
-     [Tags]     Regression
+     # [Tags]     Regression
 
 
 *** Keywords ***
@@ -29,6 +29,7 @@ Validation Page
      Capture Page Screenshot     ../Screenshots/ValidLogin.png
      Sleep     30 seconds  
      Verify Succesful Login
+     Close Browser
 
 
 

@@ -1,0 +1,18 @@
+1708058311141	geckodriver	INFO	Listening on 127.0.0.1:53297
+1708058314208	mozrunner::runner	INFO	Running command: "C:\\Users\\Jerald\\.cache\\selenium\\firefox\\win64\\122.0.1\\firefox.exe" "--marionette" "-headless" "--re ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jerald\\AppData\\Local\\Temp\\rust_mozprofileXa0WzW"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1708058314534	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1708058314611	Marionette	INFO	Listening on port 53307
+WebDriver BiDi listening on ws://127.0.0.1:53298
+Read port: 53307
+1708058314733	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53298/devtools/browser/d6eec522-6bb6-4462-9feb-d1d51fab1812
+console.error: ({})
+JavaScript error: https://app.dev.payrent.com/, line 1: TypeError: document.getElementById(...) is null
+JavaScript warning: https://t.wepay.com/fp/check.js?org_id=ncwzrc4k&session_id=156b3ffd-4be5-4c58-8cf6-68ee6dc91f9e, line 155: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1708058344652	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.

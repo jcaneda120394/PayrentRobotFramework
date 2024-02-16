@@ -1,0 +1,26 @@
+1708058491198	geckodriver	INFO	Listening on 127.0.0.1:53520
+1708058494230	mozrunner::runner	INFO	Running command: "C:\\Users\\Jerald\\.cache\\selenium\\firefox\\win64\\122.0.1\\firefox.exe" "--marionette" "-headless" "--re ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jerald\\AppData\\Local\\Temp\\rust_mozprofile13cFUU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1708058494675	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1708058494749	Marionette	INFO	Listening on port 53530
+WebDriver BiDi listening on ws://127.0.0.1:53521
+Read port: 53530
+1708058494857	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53521/devtools/browser/ec983a68-220e-48c4-ab99-a75f05e95c76
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.dev.payrent.com."
+JavaScript error: https://app.dev.payrent.com/, line 1: TypeError: document.getElementById(...) is null
+JavaScript warning: https://t.wepay.com/fp/check.js?org_id=ncwzrc4k&session_id=f412e04d-f661-405c-b205-c2059c362eda, line 1224: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1708058505763	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.dev.payrent.com."
+1708058524790	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1708058532081	Marionette	INFO	Stopped listening on port 53530
+JavaScript warning: https://static.userguiding.com/media/user-guiding-864704395ID-embedded.js, line 2: Script terminated by timeout at:
+87877/t.prototype.flush@https://static.userguiding.com/media/user-guiding-864704395ID-embedded.js:2:137107
+
+Dynamically enable window occlusion 1

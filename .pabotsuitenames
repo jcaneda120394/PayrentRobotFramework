@@ -1,0 +1,6 @@
+datasources:70810ad34b9aa7e13fab9b991bcb758d42de802e
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:faef0930196d5619f006811de4c77df4560c8e8a
+--suite TestCase.Payrent Login Valid-Test
+--suite TestCase.PropertyTest
