@@ -16,3 +16,6 @@ console.error: ({})
 JavaScript error: https://app.dev.payrent.com/, line 1: TypeError: document.getElementById(...) is null
 JavaScript warning: https://t.wepay.com/fp/check.js?org_id=ncwzrc4k&session_id=156b3ffd-4be5-4c58-8cf6-68ee6dc91f9e, line 155: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1708058344652	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.dev.payrent.com."
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: Object
