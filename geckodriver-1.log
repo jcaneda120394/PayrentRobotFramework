@@ -19,3 +19,4 @@ JavaScript warning: https://t.wepay.com/fp/check.js?org_id=ncwzrc4k&session_id=4
 1708063973930	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.dev.payrent.com."
 1708063989096	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: uncaught exception: Object

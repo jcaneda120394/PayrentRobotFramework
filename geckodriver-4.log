@@ -1,0 +1,24 @@
+1713258751778	geckodriver	INFO	Listening on 127.0.0.1:64432
+1713258754907	mozrunner::runner	INFO	Running command: "C:\\Users\\Jerald\\.cache\\selenium\\firefox\\win64\\124.0.2\\firefox.exe" "--marionette" "-headless" "--re ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jerald\\AppData\\Local\\Temp\\rust_mozprofileGz5Iiv"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713258755411	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713258755474	Marionette	INFO	Listening on port 64441
+WebDriver BiDi listening on ws://127.0.0.1:64433
+Read port: 64441
+1713258755656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:64433/devtools/browser/11efef4d-58bc-4b82-b145-cd59c3a5b235
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.dev.payrent.com."
+JavaScript error: https://app.dev.payrent.com/, line 1: TypeError: document.getElementById(...) is null
+JavaScript warning: https://t.wepay.com/fp/check.js?org_id=ncwzrc4k&session_id=66d74010-fa2a-465c-b80d-328291195e61, line 594: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713258767265	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1713258785626	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.dev.payrent.com."
+JavaScript error: , line 0: uncaught exception: Object
+Exiting due to channel error.
+Exiting due to channel error.

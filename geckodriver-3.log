@@ -1,0 +1,25 @@
+1713257698444	geckodriver	INFO	Listening on 127.0.0.1:63899
+1713257701555	mozrunner::runner	INFO	Running command: "C:\\Users\\Jerald\\.cache\\selenium\\firefox\\win64\\124.0.2\\firefox.exe" "--marionette" "-headless" "--re ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Jerald\\AppData\\Local\\Temp\\rust_mozprofilezV8Ty3"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713257702161	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713257702236	Marionette	INFO	Listening on port 64063
+WebDriver BiDi listening on ws://127.0.0.1:63900
+Read port: 64063
+1713257702486	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:63900/devtools/browser/a0119f07-f377-433e-9d27-b7e75f1d26f2
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.dev.payrent.com."
+JavaScript error: https://app.dev.payrent.com/, line 1: TypeError: document.getElementById(...) is null
+JavaScript warning: https://t.wepay.com/fp/check.js?org_id=ncwzrc4k&session_id=ffca7a5b-3e0b-40b3-89c3-a574de4724d8, line 438: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713257723798	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1713257732280	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.dev.payrent.com."
+JavaScript error: , line 0: uncaught exception: Object
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
